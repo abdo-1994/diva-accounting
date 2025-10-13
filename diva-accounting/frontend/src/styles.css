@@ -1,0 +1,57 @@
+.offline-hint {
+  background: #fff4e5;
+  border: 1px solid #f97316;
+  color: #7c2d12;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: min(420px, 90vw);
+  display: grid;
+  gap: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.modal input,
+.modal textarea {
+  padding: 8px;
+  border: 1px solid #d4d4d8;
+  border-radius: 6px;
+}
+
+.modal button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal button:first-of-type {
+  background: #4f46e5;
+  color: #fff;
+}
+
+.modal button:last-of-type {
+  background: #e5e7eb;
+}
+
